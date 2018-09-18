@@ -2,3 +2,4 @@ Create a R package :
 - randomise trainning/test
 - ranking SNP: Iscore, z-score, beta, iscore+zscore
 - calculate Polygenic Risk Score 
+ Simulating data : https://github.com/JosselinNoirel/gensim
