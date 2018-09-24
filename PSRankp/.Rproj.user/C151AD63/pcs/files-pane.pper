@@ -1,0 +1,9 @@
+{
+    "path" : "~/PSRankp/man",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
