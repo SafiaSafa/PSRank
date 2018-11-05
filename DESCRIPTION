@@ -3,7 +3,6 @@ Type: Package
 Title:PSRank
 Version: 1.0.0
 Author: Safa-tahar-henni Safia and Noirel Josselin
-Maintainer: The package maintainer 
 Description: Le package PSRank permet de faire une analyse GWA à l'aide d'un calcule de score polygénique conditionné par
     différentes façons de classer les SNPs
 License: GPL (>= 2) | file LICENSE
