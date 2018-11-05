@@ -30,7 +30,7 @@ on which we will evaluate the predictivity
 
 The data used is produce by simulation according to a Laplace distribution.
 
-To install the package `PSRank` and load it into R :
+To install the package `PSRank` and load it into R (version 3.4.2):
 
 ```
 devtools::install_github("SafiaSafa/PSRank")
