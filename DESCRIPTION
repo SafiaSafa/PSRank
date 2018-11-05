@@ -1,20 +1,10 @@
 Package: PSRankp
 Type: Package
-Title:PSRank
-Version: 1.0.0
-Author: Safa-tahar-henni Safia and Noirel Josselin
-Description: Le package PSRank permet de faire une analyse GWA à l'aide d'un calcule de score polygénique conditionné par
-    différentes façons de classer les SNPs
-License: GPL (>= 2) | file LICENSE
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: What license is it under?
 Encoding: UTF-8
-LazyData: true
-URL: http://github.com/SafiaSafa/PSRank
-BugReports: http://github.com/SafiaSafa/PSRank/issues
-Suggests: 
-    pROC,
-    matrixStats,
-    caTools,
-    snpStats,
-    ggplot2,
-    tidyverse
-VignetteBuilder: knitr
