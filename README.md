@@ -19,7 +19,8 @@ factors:
 2. The size of the effect. 
 3. The metric used.
 
-THe `PSRank`'s package concentrate on the metric used. To recapture missing signal it creates a polygenic's model. 
+THe `PSRank`'s package concentrate on the metric used to increase the statistical power. To recapture missing signal it creates a polygenic's model. 
+
 For this, the population is separate into two sets of data: 
 1. A learning set where will be estimated associations through linear univariate model. This set of SNPs is going to be sorted. 
 The packages allows to sorte the SNPs according differentes scores. Classically, by *P-values* or *β*.
