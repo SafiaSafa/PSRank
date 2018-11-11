@@ -35,5 +35,5 @@ To install the package `PSRank` and load it into R (version 3.4.2):
 
 ```
 devtools::install_github("SafiaSafa/PSRank")
-library(PSRank)
+library(PSRankp)
 ```
