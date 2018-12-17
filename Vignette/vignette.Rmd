@@ -81,7 +81,7 @@ This function return a matrix of AUC values.
 Using the $Z$ score as a ranking statistic:
 
 ```{r}
-Z = PSRank(dat, frac=.50, ranking="Z")
+Z = PSRank(dat, frac=.50, ranking="Z", samples=100)
 ```
 
 The output $(Z_{ij})$ is a matrix containing AUC values; it has as
