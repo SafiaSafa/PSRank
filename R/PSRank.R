@@ -1,4 +1,4 @@
-PSRank = function (filename,frac,ranking, method="subsampling", samples=100){
+PSRank = function (filename,frac,ranking, samples){
   N = nrow(filename$map)
 
   size = nrow(filename$fam)

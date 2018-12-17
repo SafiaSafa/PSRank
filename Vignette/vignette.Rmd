@@ -26,7 +26,7 @@ To install the package PSRank and load it into R (version 3.4.2):
 
 ```{r}
 devtools::install_github("SafiaSafa/PSRank")
-library("PSRankp")
+library("PSRank")
 ```
 
 # Package dependencies
@@ -53,9 +53,9 @@ library("matrixStats")
 Synthetic data are available in the "data/" directory; they use PLINK's binary format (BED, BIM and FAM extensions). They were produced by simulation.  The data corresponds to 1000 individuals (cases and controls) and 10000 genotyped SNPs. Only 1000 SNPs are causal and effect sizes follow a Laplace distribution. The prevalence is 0.25.
 
 ```{r}
-fam = system.file("data/sim9d.fam", package="PSRankp")
-bim = system.file("data/sim9d.fam", package="PSRankp")
-bed = system.file("data/sim9d.fam", package="PSRankp")
+fam = system.file("Data/sim9d.fam", package="PSRankp")
+bim = system.file("Data/sim9d.bim", package="PSRankp")
+bed = system.file("Data/sim9d.bed", package="PSRankp")
 dat = read.plink(bed, bim, fam)
 ```
 
@@ -81,7 +81,7 @@ This function return a matrix of AUC values.
 Using the $Z$ score as a ranking statistic:
 
 ```{r}
-Z = PSRank(dat, ranking="Z")
+Z = PSRank(dat, frac=.50, ranking="Z")
 ```
 
 The output $(Z_{ij})$ is a matrix containing AUC values; it has as
