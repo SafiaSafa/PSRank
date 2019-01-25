@@ -3,7 +3,7 @@ Type: Package
 Title:  A simple package to evaluate the efficiency of ranking statistics for polygenic score prediction
 Version: 0.1.0
 Author: Josselin Noirel, Safia Safa-tahar-henni
-Maintainer: Josselin Noirel <josselin.noirel@cnam.fr>
+Maintainer: Josselin Noirel <josselin.noirel@cnam.fr>, Safia Safa-tahar-henni <safiasafa@hotmail.fr>
 Description: The PSRank package allows the user to compare the efficacy of using several summary statistics to rank polymorphisms and include them into a polygenic risk score.
 License: GPL-3
 Encoding: UTF-8
