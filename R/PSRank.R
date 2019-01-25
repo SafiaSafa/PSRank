@@ -1,4 +1,4 @@
-PSRank = function (filename,frac,ranking, samples){
+PSRank = function (filename, frac, ranking, samples) {
   N = nrow(filename$map)
 
   size = nrow(filename$fam)
@@ -39,12 +39,12 @@ PSRank = function (filename,frac,ranking, samples){
     if (ranking == "Z"){
       zscores = sapply(associations, FUN=function (x) x$beta/sqrt(x$Var.beta))
       ranking = order(zscores, decreasing=TRUE)
-    }else if (ranking == "beta"){
+    } else if (ranking == "beta"){
       ranking = order(abs(beta), decreasing=TRUE)
-    }else if (ranking == "iscore"){
+    } else if (ranking == "I"){
       iscores = I_score(genotypes[training, ], phenotypes[training])
       ranking = order(iscores, decreasing=TRUE)
-    }else if (ranking == "combined"){
+    } else if (ranking == "ZI"){
       zscores = sapply(associations, FUN=function (x) x$beta/sqrt(x$Var.beta))
       iscores = I_score(genotypes[training, ], phenotypes[training])
       ranking = order(zscores + iscores, decreasing=TRUE)
