@@ -4,9 +4,7 @@ Title:  A simple package to evaluate the efficiency of ranking statistics for po
 Version: 0.1.0
 Author: Josselin Noirel, Safia Safa-tahar-henni
 Maintainer: Josselin Noirel <josselin.noirel@cnam.fr>
-Description: The population is separated into two sets of data:
-    A learning set where will be estimated associations through linear univariate model. This set of SNPs is going to be sorted. The packages allows to sorte the SNPs according differentes scores. By P-values, β or I-score.
-    And a test set where will be calculated a cumulative score, called "polygenic risk score"  and on which we will evaluate the predictivity
+Description: The PSRank package allows the user to compare the efficacy of using several summary statistics to rank polymorphisms and include them into a polygenic risk score.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
