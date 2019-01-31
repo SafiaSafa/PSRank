@@ -19,10 +19,14 @@ of the population).
 Overall, much of the problem stems from a low statistical power. This depends on
 four factors: (1) size of the cohort, (2) effect size distribution, (3)
 significance level and (4) the statistic used for testing for an association.
-The PSRank package concentrates on the fourth point, the metric, in order
+The PSRank package concentrates on the fourth point, the metric, in order to
+the utility of the risk score.  Instead of measuring performance in terms
+of statistical power (probability that a "true" association can be detected),
+we focus on increasing the predictive power potentially at the expense of the
 statistical power.
 
-For this, the population is split into two sets of data:
+The PSRank package aims at providing a quick way to appraise the usefulness of
+several statistics.  For this, the population is split into two sets of data:
 
 1. A learning set from which associations are sought using an additive model. An
 effect size, a p-value and other summary statistics are calculated for each SNP.
@@ -39,5 +43,6 @@ To install the package `PSRank` and load it into R (version 3.4.2):
 
 ```
 devtools::install_github("SafiaSafa/PSRank")
-library(PSRank)
+
+library("PSRank")
 ```
