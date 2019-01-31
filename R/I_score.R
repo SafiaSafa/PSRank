@@ -1,5 +1,3 @@
-# Iscore
-
 I_score = function (genotypes, phenotypes) {
   b  = ! is.na(genotypes)
 

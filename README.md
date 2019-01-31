@@ -29,12 +29,13 @@ The PSRank package aims at providing a quick way to appraise the usefulness of
 several statistics.  For this, the population is split into two sets of data:
 
 1. A learning set from which associations are sought using an additive model. An
-effect size, a p-value and other summary statistics are calculated for each SNP.
+effect size, a $p$-value and other summary statistics are calculated for each single nucleotide polymorphims (SNP).
 SNPs can then be sorted by decreasing importance based on those summary
 statistics, — traditionally, by increasing p-value or by decreasing (absolute)
 effect size. Lo et al. (PNAS 2015) introduce an alternative statistic, the
 I score: designed to recognize strongly predictive variables rather than
 merely significant ones. The I score can be used as well by PSRank.
+
 2. A test set from which the cumulative predictive power of SNPs can be assessed
 using a version of the polygenic risk score developed by Purcell et al. using
 AUC measures of accuracy.
