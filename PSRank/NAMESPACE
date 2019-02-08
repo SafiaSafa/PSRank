@@ -1,6 +1,0 @@
-exportPattern("^[[:alpha:]]+")
-import(knitr)
-import(caTools)
-import(snpStats)
-import(matrixStats)
-import(tidyverse)
