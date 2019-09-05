@@ -11,7 +11,7 @@
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-  \item{genotypes}{a $N \times k$ matrix containing genotypes encoded as 0, 1, 2 or NA
+  \item{genotypes}{a N by k matrix containing genotypes encoded as 0, 1, 2 or NA
   }
   \item{phenotypes}{a vector of $k$ values for the phenotype (quantitative or case/control)}
 }
