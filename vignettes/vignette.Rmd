@@ -1,12 +1,12 @@
 ---
-title: "Vignette for the PSRank package"
+title: "Ranking SNPs according to their I-score"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Put the title of your vignette here}
+  %\VignetteIndexEntry{Ranking SNPs according to their I-score}
   %\VignetteEngine{knitr::rmarkdown}
   \usepackage[utf8]{inputenc}
 author: "Safa-tahar-henni Safia and Josselin Noirel"
-date: "29 Oct 2018"
+date: '`r format(Sys.time(), "%d %B %Y")`'
 ---
 
 ```{r setup, include=FALSE}
